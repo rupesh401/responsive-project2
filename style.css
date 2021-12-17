@@ -569,6 +569,20 @@ input[type="submit"] {
   .featured_trip_box .tripbox_right {
     padding-left: 1em;
   }
+  
+  .featured_trip_box {
+    display: block;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+  }
+
+  .featured_trip_box img {
+    width: 100%;
+  }
+  .about-box {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 600px) {

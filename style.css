@@ -561,16 +561,7 @@ input[type="submit"] {
     height: 150px;
   }
 
-  .featured_trip_box {
-    margin-left: 4em;
-    margin-right: 4em;
-  }
-
-  .featured_trip_box .tripbox_right {
-    padding-left: 1em;
-  }
-  
-  .featured_trip_box {
+    .featured_trip_box {
     display: block;
     margin-left: 4em;
     margin-right: 4em;
@@ -580,8 +571,16 @@ input[type="submit"] {
   .featured_trip_box img {
     width: 100%;
   }
+
   .about-box {
     display: block;
+  }
+
+  .featured_trip_box .tripbox_right {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
   }
 }
 
